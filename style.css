@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+  
+  section {
+    padding: 75px 0;
+  }
+  
+  /*============ Header section Start ==============*/
+  
+  #header {
+    background-image: url(./images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  #header .content {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  #header .content h4 {
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  #header .content h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #header .content button {
+    color: #fff;
+  }
+  
+  /*============ Header section End ==============*/
+  
+  /*============ Services section Start ==============*/
+  
+  #services .fa-solid {
+    background: #ffeb3b;
+    font-size: 40px;
+    color: #784242;
+    padding: 18px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  #services h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  #services h6 {
+    font-style: italic;
+    font-size: 20px;
+    color: #131342bd;
+  }
+  
+  #services .content {
+    padding: 10px 20px;
+  }
+  
+  #services .content h5 {
+    padding: 15px 0;
+  }
+  
+  #services .content p {
+    color: #261a1acf;
+    letter-spacing: 0.8px;
+  }
+  
+  /*============ Services section End ==============*/
+  /*============ Portfolio section Start =============*/
+  
+  #portfolio {
+    background-color: rgba(196, 183, 183, 0.178);
+    text-align: center;
+  }
+  
+  #portfolio img:hover{
+     filter: grayscale(0);
+     height: auto;
+     width: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+     -webkit-filter: grayscale(1);
+  }
+  
+  #portfolio h3 {
+    font-weight: 600;
+  }
+  
+  #portfolio h6 {
+    font-style: italic;
+    font-size: 20px;
+    color: #131342bd;
+  }
+  /*============ Portfolio section End ==============*/
+  /*============ About section Start ==============*/
+  
+  #about {
+    /* background-color: rgba(196, 183, 183, 0.178); */
+    text-align: center;
+  }
+  
+  #about img {
+    width: 80%;
+  }
+  
+  #about h3 {
+    font-weight: 600;
+  }
+  
+  #about h6 {
+    font-style: italic;
+    font-size: 20px;
+    color: #131342bd;
+  }
+  
+  /*============ About section End ==============*/
+  
+  /*============ Team section Start ==============*/
+  
+  #team {
+    background-color: #ffebee;
+    text-align: center;
+  }
+  
+  #team h3 {
+    font-weight: 600;
+  }
+  
+  #team h6 {
+    font-style: italic;
+    font-size: 20px;
+    color: #131342bd;
+  }
+  
+  #team .profile .container{
+     transition: all 0.5s ease;
+     cursor: pointer;
+  }
+  
+  #team .profile:hover .container{
+     transform: scale(1.05);
+  }
+  
+  .card {
+    width: 400px;
+    border: none;
+    border-radius: 14px !important;
+  }
+  
+  .area1 {
+    background-color: #b5b2f1;
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    padding-top: 83px !important;
+  }
+  
+  .image {
+    top: -62px;
+    position: relative;
+  }
+  
+  .image img {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+  }
+  
+  .area2 {
+    background-color: #fff;
+    border-bottom-left-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+  }
+  
+  .name {
+    font-size: 25px;
+    font-weight: 650;
+  }
+  
+  .information {
+    color: #9fa8da;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .list-icons {
+    display: inline-flex;
+    color: #c5cae9;
+  }
+  
+  .list-icons li {
+    list-style: none;
+    padding: 12px;
+    border-radius: 10px;
+    width: 49px;
+    margin-right: 10px;
+  }
+  
+  .list-icons li i {
+    font-size: 17px;
+    color: #fff;
+  }
+  
+  
+  .facebook {
+    background: #3b5998;
+    transition: 1s;
+  }
+  
+  .twitter {
+    background: #3f729b;
+    transition: 1s;
+  }
+  
+  .linkedin {
+    background: #ff0000;
+    transition: 1s;
+  }
+  
+  .linkedin:hover {
+     transform: rotate(360deg);
+  }
+  
+  .twitter:hover {
+     transform: rotate(360deg);
+  }
+  
+  .facebook:hover{
+     transform: rotate(360deg);
+  }
+  
+  
+  /*============ Team section End ==============*/
