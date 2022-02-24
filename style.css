@@ -89,14 +89,20 @@
     background-color: rgba(196, 183, 183, 0.178);
     text-align: center;
   }
+
+  #portfolio img{
+    -webkit-filter: grayscale(1); 
+  }  
   
   #portfolio img:hover{
-     filter: grayscale(0);
+    filter: grayscale(0);
      height: auto;
      width: 100%;
      -o-object-fit: cover;
      object-fit: cover;
-     -webkit-filter: grayscale(1);
+     
+     
+     
   }
   
   #portfolio h3 {
@@ -245,3 +251,57 @@
   
   
   /*============ Team section End ==============*/
+
+  /*============ Logo section End ==============*/
+  .logo img{
+    width: 80%;
+    height: auto;
+    opacity: .2;
+    margin: auto;
+  }
+
+
+  /*============ logo section End ==============*/
+
+  /*============ Contact section End ==============*/
+
+#contact{
+  background-image: url(./images/map-image.png);
+  background-color: rgb(0 0 0 / 91%);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  text-align: center;
+}
+
+#contact input{
+  width: 90%;
+  line-height: inherit;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+#contact textarea{
+  width: 90%;
+  height:90%;
+  line-height: inherit;
+  padding: 0 15px;
+  margin: 10px auto;
+}
+/*============ Contact section End ==============*/
+/*============ Footer section Start ==============*/
+
+#footer {
+  height: 100px;
+  color: grayscale;
+  padding: 5px;
+}
+
+#footer p{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*============ Footer section End ==============*/
